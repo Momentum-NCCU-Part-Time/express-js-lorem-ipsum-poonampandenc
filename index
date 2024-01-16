@@ -1,0 +1,13 @@
+// import { loremIpsum } from "lorem-ipsum";
+// const express = require('express');
+// const morgan = require('morgan');
+// const port = 3000;
+// const loremIpsum = require("lorem-ipsum").loremIpsum;
+
+// const app = express();
+
+// app.use(morgan("tiny"))
+
+// app.get('/lorem', (req, res) => {
+//     res.send("lorem:", loremIpsum);
+// })
