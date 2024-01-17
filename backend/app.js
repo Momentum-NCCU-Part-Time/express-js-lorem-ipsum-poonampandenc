@@ -32,7 +32,7 @@ app.use(morgan("dev"))
 
 app.get('/lorem/', (req, res) => {
     // res.json({lorem: lorem.generateSentences(2)});
-    res.json({lorem: `lorem: ${lorem.generateSentences(2)}`});
+    res.json({lorem: `${lorem.generateSentences(2)}`});
 })
 
 app.get('*', function (req, res) {
